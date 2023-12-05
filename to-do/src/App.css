@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(250, 213, 235);
+}
+
+.App {
+  background-color: white;
+  min-height: 800vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed {
+  text-decoration: line-through 2px rgb(255, 38, 0);
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+  margin-top: 5px;
+  background: #aa069c;
+}
+
+.delete {
+  background: #d36600;
+  margin-bottom: 5px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  width: 70%;
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  margin: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+  border-radius: 50%;
+  margin-top: 20px;
+
+}
